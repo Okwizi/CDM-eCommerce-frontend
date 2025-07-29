@@ -3,12 +3,12 @@ import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
     return (
-        <div className="d-flex flex-column min-vh-100">
+        <div className="d-flex flex-column min-vh-100 last-section">
             <Navigation />
             <main className="flex-shrink-0">
                 <Outlet />
             </main>
-            <footer className="bg-dark py-4 mt-auto">
+            <footer className="bg-dark py-4 mt-auto footer">
                 <div className="container px-5">
                     <div className="row align-items-center justify-content-between flex-column flex-sm-row">
                         <div className="col-auto"><div className="small m-0 text-white">Copyright &copy; CDM-Rx 2025</div></div>
